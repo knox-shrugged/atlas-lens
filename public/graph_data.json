@@ -369,34 +369,14 @@
       "target": "Initiatives/Overwatch/Overwatch.md"
     },
     {
-      "id": "e-Initiatives/Overwatch/Overwatch.md-Agents/Chief-of-Staff-Carson/Carson.md",
-      "source": "Initiatives/Overwatch/Overwatch.md",
-      "target": "Agents/Chief-of-Staff-Carson/Carson.md"
-    },
-    {
-      "id": "e-Initiatives/Overwatch/Overwatch.md-Agents/Archivist-Hughes/Mrs-Hughes.md",
-      "source": "Initiatives/Overwatch/Overwatch.md",
-      "target": "Agents/Archivist-Hughes/Mrs-Hughes.md"
-    },
-    {
       "id": "e-Goals/Architectural-Observability/Architectural-Observability.md-Initiatives/Panopticon/Panopticon.md",
       "source": "Goals/Architectural-Observability/Architectural-Observability.md",
       "target": "Initiatives/Panopticon/Panopticon.md"
     },
     {
-      "id": "e-Initiatives/Panopticon/Panopticon.md-Agents/Visualization-Argus/Argus.md",
-      "source": "Initiatives/Panopticon/Panopticon.md",
-      "target": "Agents/Visualization-Argus/Argus.md"
-    },
-    {
       "id": "e-Goals/Skill-Ascendancy/Skill-Ascendancy.md-Initiatives/Skill-Forge/Skill-Forge.md",
       "source": "Goals/Skill-Ascendancy/Skill-Ascendancy.md",
       "target": "Initiatives/Skill-Forge/Skill-Forge.md"
-    },
-    {
-      "id": "e-Initiatives/Skill-Forge/Skill-Forge.md-Agents/Chief-of-Staff-Carson/Carson.md",
-      "source": "Initiatives/Skill-Forge/Skill-Forge.md",
-      "target": "Agents/Chief-of-Staff-Carson/Carson.md"
     },
     {
       "id": "e-Initiatives/Skill-Forge/Skill-Forge.md-Projects/Jules-Calibration/Jules-Calibration.md",
@@ -464,19 +444,9 @@
       "target": "Activities/Projects/Lens/Lens.md"
     },
     {
-      "id": "e-Activities/Tasks/Operational-Alpha/Alpha-Mission.md-Activities/Agents/Chief-of-Staff-Carson/Carson.md",
-      "source": "Activities/Tasks/Operational-Alpha/Alpha-Mission.md",
-      "target": "Activities/Agents/Chief-of-Staff-Carson/Carson.md"
-    },
-    {
       "id": "e-Activities/Tasks/Operational-Alpha/Sub-Tasks/Validation/Verify-Link.md-Activities/Projects/Lens/Lens.md",
       "source": "Activities/Tasks/Operational-Alpha/Sub-Tasks/Validation/Verify-Link.md",
       "target": "Activities/Projects/Lens/Lens.md"
-    },
-    {
-      "id": "e-Activities/Tasks/Operational-Alpha/Sub-Tasks/Validation/Verify-Link.md-Activities/Agents/Chief-of-Staff-Carson/Carson.md",
-      "source": "Activities/Tasks/Operational-Alpha/Sub-Tasks/Validation/Verify-Link.md",
-      "target": "Activities/Agents/Chief-of-Staff-Carson/Carson.md"
     }
   ]
 }
