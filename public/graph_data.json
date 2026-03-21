@@ -1,4 +1,482 @@
 {
-  "nodes": [],
-  "edges": []
+  "nodes": [
+    {
+      "id": "Goals/Architectural-Observability/Architectural-Observability.md",
+      "type": "default",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "Architectural Transparency",
+        "description": "Achieving zero-maintenance visibility over the Atlas ecosystem.",
+        "type": "Goals",
+        "category": "Goals",
+        "isLedger": false,
+        "status": "Active",
+        "schedule": "",
+        "project": "",
+        "role": ""
+      }
+    },
+    {
+      "id": "Goals/Autonomous-Intelligence/Autonomous-Intelligence.md",
+      "type": "default",
+      "position": {
+        "x": 350,
+        "y": 0
+      },
+      "data": {
+        "label": "AI State-of-the-Art",
+        "description": "Staying at the bleeding edge of agentic computing.",
+        "type": "Goals",
+        "category": "Goals",
+        "isLedger": false,
+        "status": "Active",
+        "schedule": "",
+        "project": "",
+        "role": ""
+      }
+    },
+    {
+      "id": "Goals/Skill-Ascendancy/Skill-Ascendancy.md",
+      "type": "default",
+      "position": {
+        "x": 700,
+        "y": 0
+      },
+      "data": {
+        "label": "Execution Capability Growth",
+        "description": "Systematically building and standardizing our library of autonomous skills.",
+        "type": "Goals",
+        "category": "Goals",
+        "isLedger": false,
+        "status": "Active",
+        "schedule": "",
+        "project": "",
+        "role": ""
+      }
+    },
+    {
+      "id": "Initiatives/Overwatch/Overwatch.md",
+      "type": "default",
+      "position": {
+        "x": 0,
+        "y": 400
+      },
+      "data": {
+        "label": "The Reconnaissance Engine",
+        "description": "Building high-fidelity autonomous intelligence gathering.",
+        "type": "Initiatives",
+        "category": "Initiatives",
+        "isLedger": false,
+        "status": "Active",
+        "schedule": "",
+        "project": "",
+        "role": ""
+      }
+    },
+    {
+      "id": "Initiatives/Panopticon/Panopticon.md",
+      "type": "default",
+      "position": {
+        "x": 350,
+        "y": 400
+      },
+      "data": {
+        "label": "Ecosystem Visualization",
+        "description": "Dynamic real-time mapping of Atlas strategy to reality.",
+        "type": "Initiatives",
+        "category": "Initiatives",
+        "isLedger": false,
+        "status": "Active",
+        "schedule": "",
+        "project": "",
+        "role": ""
+      }
+    },
+    {
+      "id": "Initiatives/Skill-Forge/Skill-Forge.md",
+      "type": "default",
+      "position": {
+        "x": 700,
+        "y": 400
+      },
+      "data": {
+        "label": "Capability Standardizer",
+        "description": "Standardizing autonomous execution and toolsets.",
+        "type": "Initiatives",
+        "category": "Initiatives",
+        "isLedger": false,
+        "status": "Active",
+        "schedule": "",
+        "project": "",
+        "role": ""
+      }
+    },
+    {
+      "id": "Projects/Jules-Calibration/Jules-Calibration.md",
+      "type": "default",
+      "position": {
+        "x": 0,
+        "y": 800
+      },
+      "data": {
+        "label": "Jules Skill Calibration",
+        "description": "Auditing and fine-tuning the Google Jules skill for native ecosystem integration.",
+        "type": "Projects",
+        "category": "Projects",
+        "isLedger": false,
+        "status": "Active",
+        "schedule": "",
+        "project": "",
+        "role": ""
+      }
+    },
+    {
+      "id": "Projects/Lens/Lens.md",
+      "type": "default",
+      "position": {
+        "x": 350,
+        "y": 800
+      },
+      "data": {
+        "label": "Strategic Visualization Engine",
+        "description": "The primary interface for mapping strategy to reality.",
+        "type": "Projects",
+        "category": "Projects",
+        "isLedger": false,
+        "status": "Active",
+        "schedule": "",
+        "project": "",
+        "role": ""
+      }
+    },
+    {
+      "id": "Projects/Musk-Surveillance/Musk-Surveillance.md",
+      "type": "default",
+      "position": {
+        "x": 700,
+        "y": 800
+      },
+      "data": {
+        "label": "Musk-Industrial Monitoring",
+        "description": "Monitoring tactical developments across the Musk corporate ecosystem.",
+        "type": "Projects",
+        "category": "Projects",
+        "isLedger": false,
+        "status": "Active",
+        "schedule": "",
+        "project": "",
+        "role": ""
+      }
+    },
+    {
+      "id": "Agents/Archivist-Hughes/Mrs-Hughes.md",
+      "type": "default",
+      "position": {
+        "x": 0,
+        "y": 1200
+      },
+      "data": {
+        "label": "Mrs-Hughes",
+        "description": "",
+        "type": "Agents",
+        "category": "Agents",
+        "isLedger": false,
+        "status": "Active",
+        "schedule": "",
+        "project": "",
+        "role": "Intelligence & Archive Management"
+      }
+    },
+    {
+      "id": "Agents/Chief-of-Staff-Carson/Carson.md",
+      "type": "default",
+      "position": {
+        "x": 350,
+        "y": 1200
+      },
+      "data": {
+        "label": "Carson",
+        "description": "",
+        "type": "Agents",
+        "category": "Agents",
+        "isLedger": false,
+        "status": "Active",
+        "schedule": "",
+        "project": "",
+        "role": "Orchestration & Strategic Oversight"
+      }
+    },
+    {
+      "id": "Agents/Visualization-Argus/Argus.md",
+      "type": "default",
+      "position": {
+        "x": 700,
+        "y": 1200
+      },
+      "data": {
+        "label": "Argus",
+        "description": "",
+        "type": "Agents",
+        "category": "Agents",
+        "isLedger": false,
+        "status": "Active",
+        "schedule": "",
+        "project": "",
+        "role": "Ecosystem Visualization & Monitoring"
+      }
+    },
+    {
+      "id": "Learnings/Jules-API-Architecture.md",
+      "type": "default",
+      "position": {
+        "x": 0,
+        "y": 2000
+      },
+      "data": {
+        "label": "Jules-API-Architecture",
+        "description": "",
+        "type": "Learnings",
+        "category": "Learnings",
+        "isLedger": false,
+        "status": "Validated",
+        "schedule": "",
+        "project": "",
+        "role": ""
+      }
+    },
+    {
+      "id": "Learnings/Learnings-Ledger.md",
+      "type": "default",
+      "position": {
+        "x": -400,
+        "y": 2000
+      },
+      "data": {
+        "label": "Learnings-Ledger",
+        "description": "",
+        "type": "Learnings",
+        "category": "Learnings",
+        "isLedger": true,
+        "status": "Active",
+        "schedule": "",
+        "project": "",
+        "role": ""
+      }
+    },
+    {
+      "id": "Learnings/Skill-Development-Guidelines.md",
+      "type": "default",
+      "position": {
+        "x": 700,
+        "y": 2000
+      },
+      "data": {
+        "label": "Skill-Development-Guidelines",
+        "description": "",
+        "type": "Learnings",
+        "category": "Learnings",
+        "isLedger": false,
+        "status": "Validated",
+        "schedule": "",
+        "project": "",
+        "role": ""
+      }
+    },
+    {
+      "id": "Activities/Jobs/Daily-System-Pulse.md",
+      "type": "default",
+      "position": {
+        "x": 0,
+        "y": 1600
+      },
+      "data": {
+        "label": "Daily System Pulse",
+        "description": "Automated check of all agent heartbeats and repository integrity.",
+        "type": "Activities",
+        "category": "Activities",
+        "isLedger": false,
+        "status": "Active",
+        "schedule": "Daily",
+        "project": "[Lens](../../Projects/Lens/Lens.md)",
+        "role": ""
+      }
+    },
+    {
+      "id": "Activities/Jobs/Strategic-Briefing.md",
+      "type": "default",
+      "position": {
+        "x": 350,
+        "y": 1600
+      },
+      "data": {
+        "label": "Strategic Briefing",
+        "description": "Synthesis of all agent reconnaissance into a high-level briefing.",
+        "type": "Activities",
+        "category": "Activities",
+        "isLedger": false,
+        "status": "Active",
+        "schedule": "Mon, Wed, Fri",
+        "project": "[Jules-Calibration](../../Projects/Jules-Calibration/Jules-Calibration.md)",
+        "role": ""
+      }
+    },
+    {
+      "id": "Activities/Tasks/Operational-Alpha/Alpha-Mission.md",
+      "type": "default",
+      "position": {
+        "x": 700,
+        "y": 1600
+      },
+      "data": {
+        "label": "Project Alpha Initial Launch",
+        "description": "The foundational tactical deployment for the Alpha vector.",
+        "type": "Activities",
+        "category": "Activities",
+        "isLedger": false,
+        "status": "Active",
+        "schedule": "",
+        "project": "[Lens](../../Projects/Lens/Lens.md)",
+        "role": ""
+      }
+    },
+    {
+      "id": "Activities/Tasks/Operational-Alpha/Sub-Tasks/Validation/Verify-Link.md",
+      "type": "default",
+      "position": {
+        "x": 1050,
+        "y": 1600
+      },
+      "data": {
+        "label": "Tactical Link Verification",
+        "description": "Ensuring the bridge between Alpha and the Strategic Layer is active.",
+        "type": "Activities",
+        "category": "Activities",
+        "isLedger": false,
+        "status": "Active",
+        "schedule": "",
+        "project": "[Lens](../../../../Projects/Lens/Lens.md)",
+        "role": ""
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-Goals/Autonomous-Intelligence/Autonomous-Intelligence.md-Initiatives/Overwatch/Overwatch.md",
+      "source": "Goals/Autonomous-Intelligence/Autonomous-Intelligence.md",
+      "target": "Initiatives/Overwatch/Overwatch.md"
+    },
+    {
+      "id": "e-Initiatives/Overwatch/Overwatch.md-Agents/Chief-of-Staff-Carson/Carson.md",
+      "source": "Initiatives/Overwatch/Overwatch.md",
+      "target": "Agents/Chief-of-Staff-Carson/Carson.md"
+    },
+    {
+      "id": "e-Initiatives/Overwatch/Overwatch.md-Agents/Archivist-Hughes/Mrs-Hughes.md",
+      "source": "Initiatives/Overwatch/Overwatch.md",
+      "target": "Agents/Archivist-Hughes/Mrs-Hughes.md"
+    },
+    {
+      "id": "e-Goals/Architectural-Observability/Architectural-Observability.md-Initiatives/Panopticon/Panopticon.md",
+      "source": "Goals/Architectural-Observability/Architectural-Observability.md",
+      "target": "Initiatives/Panopticon/Panopticon.md"
+    },
+    {
+      "id": "e-Initiatives/Panopticon/Panopticon.md-Agents/Visualization-Argus/Argus.md",
+      "source": "Initiatives/Panopticon/Panopticon.md",
+      "target": "Agents/Visualization-Argus/Argus.md"
+    },
+    {
+      "id": "e-Goals/Skill-Ascendancy/Skill-Ascendancy.md-Initiatives/Skill-Forge/Skill-Forge.md",
+      "source": "Goals/Skill-Ascendancy/Skill-Ascendancy.md",
+      "target": "Initiatives/Skill-Forge/Skill-Forge.md"
+    },
+    {
+      "id": "e-Initiatives/Skill-Forge/Skill-Forge.md-Agents/Chief-of-Staff-Carson/Carson.md",
+      "source": "Initiatives/Skill-Forge/Skill-Forge.md",
+      "target": "Agents/Chief-of-Staff-Carson/Carson.md"
+    },
+    {
+      "id": "e-Initiatives/Skill-Forge/Skill-Forge.md-Projects/Jules-Calibration/Jules-Calibration.md",
+      "source": "Initiatives/Skill-Forge/Skill-Forge.md",
+      "target": "Projects/Jules-Calibration/Jules-Calibration.md"
+    },
+    {
+      "id": "e-Projects/Jules-Calibration/Jules-Calibration.md-Agents/Chief-of-Staff-Carson/Carson.md",
+      "source": "Projects/Jules-Calibration/Jules-Calibration.md",
+      "target": "Agents/Chief-of-Staff-Carson/Carson.md"
+    },
+    {
+      "id": "e-Initiatives/Panopticon/Panopticon.md-Projects/Lens/Lens.md",
+      "source": "Initiatives/Panopticon/Panopticon.md",
+      "target": "Projects/Lens/Lens.md"
+    },
+    {
+      "id": "e-Projects/Lens/Lens.md-Agents/Visualization-Argus/Argus.md",
+      "source": "Projects/Lens/Lens.md",
+      "target": "Agents/Visualization-Argus/Argus.md"
+    },
+    {
+      "id": "e-Initiatives/Overwatch/Overwatch.md-Projects/Musk-Surveillance/Musk-Surveillance.md",
+      "source": "Initiatives/Overwatch/Overwatch.md",
+      "target": "Projects/Musk-Surveillance/Musk-Surveillance.md"
+    },
+    {
+      "id": "e-Projects/Musk-Surveillance/Musk-Surveillance.md-Agents/Archivist-Hughes/Mrs-Hughes.md",
+      "source": "Projects/Musk-Surveillance/Musk-Surveillance.md",
+      "target": "Agents/Archivist-Hughes/Mrs-Hughes.md"
+    },
+    {
+      "id": "e-Projects/Jules-Calibration/Jules-Calibration.md-Learnings/Jules-API-Architecture.md",
+      "source": "Projects/Jules-Calibration/Jules-Calibration.md",
+      "target": "Learnings/Jules-API-Architecture.md"
+    },
+    {
+      "id": "e-Learnings/Learnings-Ledger.md-Learnings/Skill-Development-Guidelines.md",
+      "source": "Learnings/Learnings-Ledger.md",
+      "target": "Learnings/Skill-Development-Guidelines.md"
+    },
+    {
+      "id": "e-Learnings/Learnings-Ledger.md-Learnings/Jules-API-Architecture.md",
+      "source": "Learnings/Learnings-Ledger.md",
+      "target": "Learnings/Jules-API-Architecture.md"
+    },
+    {
+      "id": "e-Initiatives/Skill-Forge/Skill-Forge.md-Learnings/Skill-Development-Guidelines.md",
+      "source": "Initiatives/Skill-Forge/Skill-Forge.md",
+      "target": "Learnings/Skill-Development-Guidelines.md"
+    },
+    {
+      "id": "e-Projects/Lens/Lens.md-Activities/Jobs/Daily-System-Pulse.md",
+      "source": "Projects/Lens/Lens.md",
+      "target": "Activities/Jobs/Daily-System-Pulse.md"
+    },
+    {
+      "id": "e-Projects/Jules-Calibration/Jules-Calibration.md-Activities/Jobs/Strategic-Briefing.md",
+      "source": "Projects/Jules-Calibration/Jules-Calibration.md",
+      "target": "Activities/Jobs/Strategic-Briefing.md"
+    },
+    {
+      "id": "e-Activities/Tasks/Operational-Alpha/Alpha-Mission.md-Activities/Projects/Lens/Lens.md",
+      "source": "Activities/Tasks/Operational-Alpha/Alpha-Mission.md",
+      "target": "Activities/Projects/Lens/Lens.md"
+    },
+    {
+      "id": "e-Activities/Tasks/Operational-Alpha/Alpha-Mission.md-Activities/Agents/Chief-of-Staff-Carson/Carson.md",
+      "source": "Activities/Tasks/Operational-Alpha/Alpha-Mission.md",
+      "target": "Activities/Agents/Chief-of-Staff-Carson/Carson.md"
+    },
+    {
+      "id": "e-Activities/Tasks/Operational-Alpha/Sub-Tasks/Validation/Verify-Link.md-Activities/Projects/Lens/Lens.md",
+      "source": "Activities/Tasks/Operational-Alpha/Sub-Tasks/Validation/Verify-Link.md",
+      "target": "Activities/Projects/Lens/Lens.md"
+    },
+    {
+      "id": "e-Activities/Tasks/Operational-Alpha/Sub-Tasks/Validation/Verify-Link.md-Activities/Agents/Chief-of-Staff-Carson/Carson.md",
+      "source": "Activities/Tasks/Operational-Alpha/Sub-Tasks/Validation/Verify-Link.md",
+      "target": "Activities/Agents/Chief-of-Staff-Carson/Carson.md"
+    }
+  ]
 }

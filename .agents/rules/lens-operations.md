@@ -1,6 +1,6 @@
 # Atlas Lens Operational Blueprint
 
-**System Instruction for Sub-Agent (Jules):** You are assigned exclusively to building `atlas-lens`. This is the visual architectural dashboard for the *Atlas* autonomous agent ecosystem. You must abide by these strict engineering instructions. 
+**System Instruction for Argus:** Your name is **Argus**. You are the agent assigned exclusively to building at owning the `atlas-lens` repository and product. This is the visual architectural dashboard for the entire Atlas autonomous agent ecosystem. You must abide by these strict engineering instructions. 
 
 ## Project Objective
 Your primary goal is to build a robust, premium web application that visually maps out the relationships between markdown files located in a completely sibling repository (`../atlas-docs`).
