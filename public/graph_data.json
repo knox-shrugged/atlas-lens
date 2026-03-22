@@ -20,15 +20,15 @@
       }
     },
     {
-      "id": "Goals/Autonomous-Intelligence/Autonomous-Intelligence.md",
+      "id": "Goals/Autonomous-Delegation/Autonomous-Delegation.md",
       "type": "default",
       "position": {
         "x": 350,
         "y": 0
       },
       "data": {
-        "label": "AI State-of-the-Art",
-        "description": "Staying at the bleeding edge of agentic computing.",
+        "label": "Autonomous Delegation",
+        "description": "Systematically building the capability to create, delegate, and track tasks through autonomous agents.",
         "type": "Goals",
         "category": "Goals",
         "isLedger": false,
@@ -39,15 +39,15 @@
       }
     },
     {
-      "id": "Goals/Skill-Ascendancy/Skill-Ascendancy.md",
+      "id": "Goals/Autonomous-Intelligence/Autonomous-Intelligence.md",
       "type": "default",
       "position": {
         "x": 700,
         "y": 0
       },
       "data": {
-        "label": "Execution Capability Growth",
-        "description": "Systematically building and standardizing our library of autonomous skills.",
+        "label": "AI State-of-the-Art",
+        "description": "Staying at the bleeding edge of agentic computing.",
         "type": "Goals",
         "category": "Goals",
         "isLedger": false,
@@ -96,15 +96,15 @@
       }
     },
     {
-      "id": "Initiatives/Skill-Forge/Skill-Forge.md",
+      "id": "Initiatives/Taskmaster/Taskmaster.md",
       "type": "default",
       "position": {
         "x": 700,
         "y": 400
       },
       "data": {
-        "label": "Capability Standardizer",
-        "description": "Standardizing autonomous execution and toolsets.",
+        "label": "Taskmaster",
+        "description": "Create, delegate, and follow up on all tasks related to any and all objectives undertaken.",
         "type": "Initiatives",
         "category": "Initiatives",
         "isLedger": false,
@@ -115,15 +115,15 @@
       }
     },
     {
-      "id": "Projects/Jules-Calibration/Jules-Calibration.md",
+      "id": "Projects/Dispatch/Dispatch.md",
       "type": "default",
       "position": {
         "x": 0,
         "y": 800
       },
       "data": {
-        "label": "Jules Skill Calibration",
-        "description": "Auditing and fine-tuning the Google Jules skill for native ecosystem integration.",
+        "label": "Task Dispatch Engine",
+        "description": "The operational command center for creating, delegating, and tracking tasks across the Atlas ecosystem.",
         "type": "Projects",
         "category": "Projects",
         "isLedger": false,
@@ -360,6 +360,25 @@
         "project": "[Lens](../../../../Projects/Lens/Lens.md)",
         "role": ""
       }
+    },
+    {
+      "id": "Activities/Tasks/Sonar-Core-Implementation.md",
+      "type": "default",
+      "position": {
+        "x": 1400,
+        "y": 1600
+      },
+      "data": {
+        "label": "Initialize Sonar Engine Core",
+        "description": "Autonomous implementation of the Sonar data ingestion and synthesis engine based on the tactical requirements in Sonar.md. Leverage Jules for rapid development of the agentic stack.",
+        "type": "Activities",
+        "category": "Activities",
+        "isLedger": false,
+        "status": "In-Progress (Redeployed with Full Context)",
+        "schedule": "",
+        "project": "[Sonar](../../Projects/Sonar/Sonar.md)",
+        "role": ""
+      }
     }
   ],
   "edges": [
@@ -374,18 +393,18 @@
       "target": "Initiatives/Panopticon/Panopticon.md"
     },
     {
-      "id": "e-Goals/Skill-Ascendancy/Skill-Ascendancy.md-Initiatives/Skill-Forge/Skill-Forge.md",
-      "source": "Goals/Skill-Ascendancy/Skill-Ascendancy.md",
-      "target": "Initiatives/Skill-Forge/Skill-Forge.md"
+      "id": "e-Goals/Autonomous-Delegation/Autonomous-Delegation.md-Initiatives/Taskmaster/Taskmaster.md",
+      "source": "Goals/Autonomous-Delegation/Autonomous-Delegation.md",
+      "target": "Initiatives/Taskmaster/Taskmaster.md"
     },
     {
-      "id": "e-Initiatives/Skill-Forge/Skill-Forge.md-Projects/Jules-Calibration/Jules-Calibration.md",
-      "source": "Initiatives/Skill-Forge/Skill-Forge.md",
-      "target": "Projects/Jules-Calibration/Jules-Calibration.md"
+      "id": "e-Initiatives/Taskmaster/Taskmaster.md-Projects/Dispatch/Dispatch.md",
+      "source": "Initiatives/Taskmaster/Taskmaster.md",
+      "target": "Projects/Dispatch/Dispatch.md"
     },
     {
-      "id": "e-Projects/Jules-Calibration/Jules-Calibration.md-Agents/Chief-of-Staff-Carson/Carson.md",
-      "source": "Projects/Jules-Calibration/Jules-Calibration.md",
+      "id": "e-Projects/Dispatch/Dispatch.md-Agents/Chief-of-Staff-Carson/Carson.md",
+      "source": "Projects/Dispatch/Dispatch.md",
       "target": "Agents/Chief-of-Staff-Carson/Carson.md"
     },
     {
@@ -447,6 +466,11 @@
       "id": "e-Activities/Tasks/Operational-Alpha/Sub-Tasks/Validation/Verify-Link.md-Activities/Projects/Lens/Lens.md",
       "source": "Activities/Tasks/Operational-Alpha/Sub-Tasks/Validation/Verify-Link.md",
       "target": "Activities/Projects/Lens/Lens.md"
+    },
+    {
+      "id": "e-Projects/Sonar/Sonar.md-Activities/Tasks/Sonar-Core-Implementation.md",
+      "source": "Projects/Sonar/Sonar.md",
+      "target": "Activities/Tasks/Sonar-Core-Implementation.md"
     }
   ]
 }
