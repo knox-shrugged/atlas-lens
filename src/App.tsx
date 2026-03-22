@@ -58,11 +58,12 @@ function App() {
           }}>ATLAS LENS</h1>
         </div>
         
-        <nav style={{ display: 'flex', gap: '4px' }}>
+        <nav aria-label="Primary Navigation" style={{ display: 'flex', gap: '4px' }}>
           {navigation.map((screen) => (
             <button
               key={screen.id}
               onClick={() => setActiveScreen(screen.id as Screen)}
+              aria-current={activeScreen === screen.id ? 'page' : undefined}
               style={{
                 padding: '8px 20px',
                 borderRadius: '8px',
