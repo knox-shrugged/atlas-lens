@@ -137,8 +137,11 @@ export default function GraphViewer({ viewMode = 'vision' }: GraphViewerProps) {
               )}
               
               {hasChildren && (
-                <div 
+                <button
                   onClick={(e) => { e.stopPropagation(); toggleNodeCollapse(node.id); }}
+                  aria-expanded={!isCollapsed}
+                  aria-label={isCollapsed ? 'Expand node' : 'Collapse node'}
+                  title={isCollapsed ? 'Expand node' : 'Collapse node'}
                   style={{ 
                     position: 'absolute', 
                     top: -10, 
@@ -154,11 +157,13 @@ export default function GraphViewer({ viewMode = 'vision' }: GraphViewerProps) {
                     boxShadow: '0 2px 4px rgba(0,0,0,0.3)',
                     fontSize: '10px',
                     fontWeight: 900,
-                    color: '#000'
+                    color: '#000',
+                    border: 'none',
+                    padding: 0
                   }}
                 >
                   {isCollapsed ? '+' : '−'}
-                </div>
+                </button>
               )}
 
               <div style={{ fontSize: '0.85rem', fontWeight: 700, marginBottom: '4px', color: '#f3f4f6' }}>
@@ -278,14 +283,21 @@ export default function GraphViewer({ viewMode = 'vision' }: GraphViewerProps) {
         minWidth: legendOpen ? '240px' : 'auto',
         transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)'
       }}>
-        <div 
+        <button
           onClick={() => setLegendOpen(!legendOpen)}
+          aria-expanded={legendOpen}
+          aria-label="Toggle Legend"
+          title="Toggle Legend"
           style={{ 
             display: 'flex', 
             alignItems: 'center', 
             justifyContent: 'space-between', 
             cursor: 'pointer',
-            gap: '12px'
+            gap: '12px',
+            background: 'transparent',
+            border: 'none',
+            width: '100%',
+            padding: 0
           }}
         >
           <div style={{ 
@@ -313,7 +325,7 @@ export default function GraphViewer({ viewMode = 'vision' }: GraphViewerProps) {
           >
             <path d="M18 15l-6-6-6 6" />
           </svg>
-        </div>
+        </button>
 
         {legendOpen && (
           <>
