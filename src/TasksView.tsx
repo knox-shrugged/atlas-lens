@@ -81,6 +81,9 @@ export default function TasksView() {
             {hasChildren ? (
               <button 
                 onClick={() => toggleExpand(node.id)}
+                aria-expanded={isExpanded}
+                aria-label={isExpanded ? 'Collapse task' : 'Expand task'}
+                title={isExpanded ? 'Collapse task' : 'Expand task'}
                 style={{ 
                   background: 'none', border: 'none', color: '#8b949e', cursor: 'pointer',
                   padding: 0, display: 'flex', alignItems: 'center'
