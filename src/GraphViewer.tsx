@@ -169,7 +169,7 @@ export default function GraphViewer({ viewMode = 'vision' }: GraphViewerProps) {
               <div style={{ fontSize: '0.85rem', fontWeight: 700, marginBottom: '4px', color: '#f3f4f6' }}>
                 {String(node.data.label)}
               </div>
-              {node.data.description && (
+              {Boolean(node.data.description) && (
                 <div style={{ fontSize: '0.7rem', color: '#8b949e', lineHeight: '1.3', fontStyle: 'italic' }}>
                   {String(node.data.description)}
                 </div>
@@ -188,7 +188,7 @@ export default function GraphViewer({ viewMode = 'vision' }: GraphViewerProps) {
                 </div>
               )}
 
-              {node.data.category === 'Agents' && node.data.role && (
+              {node.data.category === 'Agents' && Boolean(node.data.role) && (
                 <div style={{ 
                   marginTop: '8px', 
                   padding: '4px 8px', 
@@ -239,7 +239,7 @@ export default function GraphViewer({ viewMode = 'vision' }: GraphViewerProps) {
 
 
   if (loading) {
-    return <div className="loading" style={{ 
+    return <div role="status" aria-live="polite" className="loading" style={{
       color: '#8b949e', 
       display: 'flex', 
       justifyContent: 'center', 

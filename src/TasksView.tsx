@@ -23,14 +23,14 @@ export default function TasksView() {
     fetch('/graph_data.json')
       .then((res) => res.json())
       .then((json) => {
-        const tasks = json.nodes.filter((n: any) => n.id.startsWith('Activities/Tasks/'));
+        const tasks = json.nodes.filter((n: any /* eslint-disable-line @typescript-eslint/no-explicit-any */) => n.id.startsWith('Activities/Tasks/'));
         const root: TaskNode[] = [];
         const taskMap: Record<string, TaskNode> = {};
 
         // Sort by depth (fewer slashes first)
-        tasks.sort((a: any, b: any) => a.id.split('/').length - b.id.split('/').length);
+        tasks.sort((a: any /* eslint-disable-line @typescript-eslint/no-explicit-any */, b: any /* eslint-disable-line @typescript-eslint/no-explicit-any */) => a.id.split('/').length - b.id.split('/').length);
 
-        tasks.forEach((node: any) => {
+        tasks.forEach((node: any /* eslint-disable-line @typescript-eslint/no-explicit-any */) => {
           const taskObj = { ...node, children: [] };
           taskMap[node.id] = taskObj;
 
@@ -76,7 +76,7 @@ export default function TasksView() {
           background: 'rgba(22, 27, 34, 0.3)',
           transition: 'background 0.2s',
           ':hover': { background: 'rgba(33, 38, 45, 0.4)' }
-        } as any}>
+        } as any /* eslint-disable-line @typescript-eslint/no-explicit-any */}>
           <div style={{ paddingLeft: `${depth * 24}px`, display: 'flex', alignItems: 'center', gap: '8px' }}>
             {hasChildren ? (
               <button 
@@ -124,7 +124,7 @@ export default function TasksView() {
     );
   };
 
-  if (loading) return <div className="loading">Initializing tactical tree...</div>;
+  if (loading) return <div role="status" aria-live="polite" className="loading">Initializing tactical tree...</div>;
 
   return (
     <div style={{ padding: '32px', maxWidth: '1200px', margin: '0 auto', color: '#f3f4f6' }}>

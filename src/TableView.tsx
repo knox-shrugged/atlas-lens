@@ -21,7 +21,7 @@ export default function TableView({ category }: TableViewProps) {
     fetch('/graph_data.json')
       .then((res) => res.json())
       .then((json) => {
-        const filtered = json.nodes.filter((node: any) => node.data.category === category);
+        const filtered = json.nodes.filter((node: any /* eslint-disable-line @typescript-eslint/no-explicit-any */) => node.data.category === category);
         setData(filtered);
         setLoading(false);
       })
@@ -33,7 +33,7 @@ export default function TableView({ category }: TableViewProps) {
 
   if (loading) {
     return (
-      <div style={{ padding: '40px', color: '#8b949e', textAlign: 'center' }}>
+      <div role="status" aria-live="polite" style={{ padding: '40px', color: '#8b949e', textAlign: 'center' }}>
         Synthesizing strategic data...
       </div>
     );

@@ -24,7 +24,7 @@ export default function CalendarView() {
     fetch('/graph_data.json')
       .then(res => res.json())
       .then(data => {
-        const filtered = (data.nodes || []).filter((n: any) => n.id.startsWith('Activities/Jobs/') && !n.data.label.toLowerCase().includes('ledger'));
+        const filtered = (data.nodes || []).filter((n: any /* eslint-disable-line @typescript-eslint/no-explicit-any */) => n.id.startsWith('Activities/Jobs/') && !n.data.label.toLowerCase().includes('ledger'));
         setActivities(filtered);
         setLoading(false);
       })
@@ -44,7 +44,7 @@ export default function CalendarView() {
     });
   };
 
-  if (loading) return <div style={{ color: '#8b949e', padding: '2rem', textAlign: 'center' }}>Loading Schedule...</div>;
+  if (loading) return <div role="status" aria-live="polite" style={{ color: '#8b949e', padding: '2rem', textAlign: 'center' }}>Loading Schedule...</div>;
 
   return (
     <div style={{ padding: '24px', height: 'calc(100vh - 64px)', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
