@@ -65,7 +65,7 @@
         "y": 400
       },
       "data": {
-        "label": "The Reconnaissance Engine",
+        "label": "Overwatch",
         "description": "Building high-fidelity autonomous intelligence gathering.",
         "type": "Initiatives",
         "category": "Initiatives",
@@ -84,7 +84,7 @@
         "y": 400
       },
       "data": {
-        "label": "Ecosystem Visualization",
+        "label": "Panopticon",
         "description": "Dynamic real-time mapping of Atlas strategy to reality.",
         "type": "Initiatives",
         "category": "Initiatives",
@@ -153,15 +153,15 @@
       }
     },
     {
-      "id": "Projects/Musk-Surveillance/Musk-Surveillance.md",
+      "id": "Projects/Sonar/Sonar.md",
       "type": "default",
       "position": {
         "x": 700,
         "y": 800
       },
       "data": {
-        "label": "Musk-Industrial Monitoring",
-        "description": "Monitoring tactical developments across the Musk corporate ecosystem.",
+        "label": "Sonar Intelligence Engine",
+        "description": "Autonomous data gathering and summarization for on-demand and scheduled tactical briefings.",
         "type": "Projects",
         "category": "Projects",
         "isLedger": false,
@@ -305,21 +305,21 @@
       }
     },
     {
-      "id": "Activities/Jobs/Strategic-Briefing.md",
+      "id": "Activities/Jobs/Sonar-Pulse.md",
       "type": "default",
       "position": {
         "x": 350,
         "y": 1600
       },
       "data": {
-        "label": "Strategic Briefing",
-        "description": "Synthesis of all agent reconnaissance into a high-level briefing.",
+        "label": "Sonar Intelligence Pulse",
+        "description": "Automated reconnaissance routine to trigger the Sonar ingestion pipeline.",
         "type": "Activities",
         "category": "Activities",
         "isLedger": false,
         "status": "Active",
-        "schedule": "Mon, Wed, Fri",
-        "project": "[Jules-Calibration](../../Projects/Jules-Calibration/Jules-Calibration.md)",
+        "schedule": "Every 12 Hours",
+        "project": "[Sonar](../../Projects/Sonar/Sonar.md)",
         "role": ""
       }
     },
@@ -399,13 +399,13 @@
       "target": "Agents/Visualization-Argus/Argus.md"
     },
     {
-      "id": "e-Initiatives/Overwatch/Overwatch.md-Projects/Musk-Surveillance/Musk-Surveillance.md",
+      "id": "e-Initiatives/Overwatch/Overwatch.md-Projects/Sonar/Sonar.md",
       "source": "Initiatives/Overwatch/Overwatch.md",
-      "target": "Projects/Musk-Surveillance/Musk-Surveillance.md"
+      "target": "Projects/Sonar/Sonar.md"
     },
     {
-      "id": "e-Projects/Musk-Surveillance/Musk-Surveillance.md-Agents/Archivist-Hughes/Mrs-Hughes.md",
-      "source": "Projects/Musk-Surveillance/Musk-Surveillance.md",
+      "id": "e-Projects/Sonar/Sonar.md-Agents/Archivist-Hughes/Mrs-Hughes.md",
+      "source": "Projects/Sonar/Sonar.md",
       "target": "Agents/Archivist-Hughes/Mrs-Hughes.md"
     },
     {
@@ -434,9 +434,9 @@
       "target": "Activities/Jobs/Daily-System-Pulse.md"
     },
     {
-      "id": "e-Projects/Jules-Calibration/Jules-Calibration.md-Activities/Jobs/Strategic-Briefing.md",
-      "source": "Projects/Jules-Calibration/Jules-Calibration.md",
-      "target": "Activities/Jobs/Strategic-Briefing.md"
+      "id": "e-Projects/Sonar/Sonar.md-Activities/Jobs/Sonar-Pulse.md",
+      "source": "Projects/Sonar/Sonar.md",
+      "target": "Activities/Jobs/Sonar-Pulse.md"
     },
     {
       "id": "e-Activities/Tasks/Operational-Alpha/Alpha-Mission.md-Activities/Projects/Lens/Lens.md",
