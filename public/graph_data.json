@@ -324,48 +324,10 @@
       }
     },
     {
-      "id": "Activities/Tasks/Operational-Alpha/Alpha-Mission.md",
-      "type": "default",
-      "position": {
-        "x": 700,
-        "y": 1600
-      },
-      "data": {
-        "label": "Project Alpha Initial Launch",
-        "description": "The foundational tactical deployment for the Alpha vector.",
-        "type": "Activities",
-        "category": "Activities",
-        "isLedger": false,
-        "status": "Active",
-        "schedule": "",
-        "project": "[Lens](../../Projects/Lens/Lens.md)",
-        "role": ""
-      }
-    },
-    {
-      "id": "Activities/Tasks/Operational-Alpha/Sub-Tasks/Validation/Verify-Link.md",
-      "type": "default",
-      "position": {
-        "x": 1050,
-        "y": 1600
-      },
-      "data": {
-        "label": "Tactical Link Verification",
-        "description": "Ensuring the bridge between Alpha and the Strategic Layer is active.",
-        "type": "Activities",
-        "category": "Activities",
-        "isLedger": false,
-        "status": "Active",
-        "schedule": "",
-        "project": "[Lens](../../../../Projects/Lens/Lens.md)",
-        "role": ""
-      }
-    },
-    {
       "id": "Activities/Tasks/Sonar-Core-Implementation.md",
       "type": "default",
       "position": {
-        "x": 1400,
+        "x": 700,
         "y": 1600
       },
       "data": {
@@ -456,16 +418,6 @@
       "id": "e-Projects/Sonar/Sonar.md-Activities/Jobs/Sonar-Pulse.md",
       "source": "Projects/Sonar/Sonar.md",
       "target": "Activities/Jobs/Sonar-Pulse.md"
-    },
-    {
-      "id": "e-Activities/Tasks/Operational-Alpha/Alpha-Mission.md-Activities/Projects/Lens/Lens.md",
-      "source": "Activities/Tasks/Operational-Alpha/Alpha-Mission.md",
-      "target": "Activities/Projects/Lens/Lens.md"
-    },
-    {
-      "id": "e-Activities/Tasks/Operational-Alpha/Sub-Tasks/Validation/Verify-Link.md-Activities/Projects/Lens/Lens.md",
-      "source": "Activities/Tasks/Operational-Alpha/Sub-Tasks/Validation/Verify-Link.md",
-      "target": "Activities/Projects/Lens/Lens.md"
     },
     {
       "id": "e-Projects/Sonar/Sonar.md-Activities/Tasks/Sonar-Core-Implementation.md",
