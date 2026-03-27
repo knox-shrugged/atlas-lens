@@ -6,3 +6,6 @@
 ## 2024-05-21 - Accessible Loading States
 **Learning:** React applications often swap components or display loading messages (e.g., "Loading Schedule...", "Initializing tactical tree...") during data fetching. Screen readers may not announce these changes if they aren't explicitly flagged.
 **Action:** Always add `role="status"` and `aria-live="polite"` to loading indicator elements (spinners, text messages) so that screen readers announce them to users relying on assistive technology, improving visibility of background processes.
+## 2024-05-28 - Meaningful vs Decorative SVGs
+**Learning:** React SVG icons need explicit accessibility context. Icons alone are either invisible to screen readers or announce redundantly. Status indicators (meaningful) require `role="img"`, `aria-label`, and a `<title>` tag for correct screen reader announcement, while purely decorative icons (like toggle chevrons or icons with adjacent visible text labels) must have `aria-hidden="true"` to reduce noise.
+**Action:** When adding or auditing SVGs in UI components, consciously evaluate if the SVG provides unique information or is purely visual. Apply the correct ARIA attributes based on this classification to ensure a clean and informative screen reader experience.
