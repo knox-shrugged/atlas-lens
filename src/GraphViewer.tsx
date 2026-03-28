@@ -102,22 +102,26 @@ export default function GraphViewer({ viewMode = 'vision' }: GraphViewerProps) {
       const getStatusIcon = (s: string) => {
         switch(s) {
           case 'active': return (
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" style={{ color: '#22c55e' }}>
+            <svg role="img" aria-label="Active status" width="12" height="12" viewBox="0 0 24 24" fill="currentColor" style={{ color: '#22c55e' }}>
+              <title>Active status</title>
               <circle cx="12" cy="12" r="10" />
             </svg>
           );
           case 'paused': return (
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" style={{ color: '#eab308' }}>
+            <svg role="img" aria-label="Paused status" width="12" height="12" viewBox="0 0 24 24" fill="currentColor" style={{ color: '#eab308' }}>
+              <title>Paused status</title>
               <rect x="6" y="4" width="4" height="16" /><rect x="14" y="4" width="4" height="16" />
             </svg>
           );
           case 'completed': return (
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="4" style={{ color: '#3b82f6' }}>
+            <svg role="img" aria-label="Completed status" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="4" style={{ color: '#3b82f6' }}>
+              <title>Completed status</title>
               <polyline points="20 6 9 17 4 12" />
             </svg>
           );
           default: return (
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" style={{ color: '#8b949e' }}>
+            <svg role="img" aria-label="Planned status" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" style={{ color: '#8b949e' }}>
+              <title>Planned status</title>
               <circle cx="12" cy="12" r="10" />
             </svg>
           );
@@ -311,6 +315,7 @@ export default function GraphViewer({ viewMode = 'vision' }: GraphViewerProps) {
             Legend
           </div>
           <svg 
+            aria-hidden="true"
             width="16" 
             height="16" 
             viewBox="0 0 24 24" 
@@ -367,22 +372,22 @@ export default function GraphViewer({ viewMode = 'vision' }: GraphViewerProps) {
               {[
                 { 
                   label: 'Active', 
-                  icon: <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" /></svg>,
+                  icon: <svg aria-hidden="true" width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" /></svg>,
                   color: '#22c55e'
                 },
                 { 
                   label: 'Paused', 
-                  icon: <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16" /><rect x="14" y="4" width="4" height="16" /></svg>,
+                  icon: <svg aria-hidden="true" width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16" /><rect x="14" y="4" width="4" height="16" /></svg>,
                   color: '#eab308'
                 },
                 { 
                   label: 'Completed', 
-                  icon: <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="4"><polyline points="20 6 9 17 4 12" /></svg>,
+                  icon: <svg aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="4"><polyline points="20 6 9 17 4 12" /></svg>,
                   color: '#3b82f6'
                 },
                 { 
                   label: 'Planned', 
-                  icon: <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><circle cx="12" cy="12" r="10" /></svg>,
+                  icon: <svg aria-hidden="true" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><circle cx="12" cy="12" r="10" /></svg>,
                   color: '#8b949e'
                 }
               ].map((item) => (
